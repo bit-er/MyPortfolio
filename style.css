@@ -1,0 +1,270 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Kalam', cursive; 
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    border-bottom: 1px solid #CCCCCC;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: #EEE;
+}
+.logo {
+    text-transform: uppercase;
+    color: black;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+header nav a {
+    margin-left: 10px;
+    color: black;
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 0.5em;
+    border-radius: 20px;
+}
+header nav a:hover {
+    background-color: #CCC;
+    color: #444;
+}
+.main { 
+ width: 100%;
+ min-height: 100vh;
+ display: flex;
+ align-items: center;
+ background: url('background.png') no-repeat;
+ background-size: cover;
+ background-position: center center;
+ background-attachment: fixed;
+
+}
+.sections {
+    padding: 100px 50px;
+    color: #888;
+}
+.main div h4 {
+    font-size: 1.4em;
+    
+}
+.main div h1 {
+    font-size: 3em;
+    padding: 5% 0% 10% 0%;
+    color: white;
+}
+
+.main em {
+    font-size: 2em;
+}
+.main div div a {
+    color: white;
+}
+
+.social-icons {
+    width: 30%;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-title {
+    font-size: 2em;
+    color: black;
+    text-align: center;
+    padding-bottom: 7%;
+    
+}
+.all-skills {
+    border: 3px solid black;
+    border-radius: 30px;
+    font-size: 2.5em;
+    margin-bottom: 75px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.skills h3 {
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+.iconify {
+    padding: 30px 30px;
+}
+
+.projects {
+    background-color: black;
+}
+.projects .sub-title {
+    color:white;
+}
+
+.project {
+    min-width: 300px;
+    height: 400px;
+    background-color: white;
+    border-radius: 30px;
+    display: inline-block;
+    justify-content: space-between;
+    margin: 5px;
+    
+}
+
+.email {
+    color: black;
+    border: 3px solid black;
+    border-radius: 30px;
+    width: 40%;
+    height: 40%;
+    
+}
+.email a{
+    color: black;
+    padding: 50px 20px;
+    display:flex;
+    flex-direction:column;
+    align-items: center; 
+    justify-content: center;
+}
+.email a:hover {
+   transform: scale(1.1);
+   opacity: 0.8;
+}
+
+
+
+
+
+footer {
+    padding: 10px;
+    border-top: 1px solid #CCCCCC;
+    font-size: 1em;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+footer .iconify {
+    padding: 30px 20px;
+}
+
+footer a {
+    color: white;
+}
+
+
+
+@media (max-width:300px){
+    
+    header nav a {
+        padding: 0.1em;
+
+    }
+    .email {
+    
+        width: 90%;
+        height: 90%;
+        
+    }
+    .email a{
+        font-size: 0.8em;
+    }
+    header nav a {
+        margin-left: 5px;
+        font-size: 0.8em;
+        padding: 0.05em;
+    }
+    header {
+        padding: 5px;
+    }
+    .logo {
+
+        font-size: 1.3em;
+
+    }
+    .sections {
+        padding: 100px 10px;
+        color: #888;
+    }
+    
+   
+}
+@media (max-width:400px){
+    
+    .project {
+        min-width: 90%;
+        height: 200px;
+
+    }
+    header nav a {
+        margin-left: 5px;
+        font-size: 0.9em;
+        padding: 5px;
+    }
+    footer {
+        padding: 8px;
+        font-size: 0.8em; 
+    }
+    .sections {
+        padding: 100px 16px;
+        color: #888;
+    }
+   
+
+}
+    
+
+@media (max-width:500px){
+    
+    .main {
+        background: none;
+        background-color: black;
+    }
+    footer .iconify {
+        padding: 30px 7px;
+    }
+
+    
+}
+@media (max-width:800px){
+    
+    .email {
+
+        width: 70%;
+        height: 70%;
+        
+    }
+    footer {
+        padding: 10px 10px;
+        
+        
+    }
+    .project {
+      
+        
+        
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: 20px;
+        
+    }
+}
+  
