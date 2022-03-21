@@ -18,7 +18,7 @@ function setup() {
     s.push(random(15,20));
     d.push(int(round(random(1))));
   }
-  
+  fill(0);
   textAlign(CENTER);
 
 }
@@ -26,7 +26,7 @@ function setup() {
 function draw() {
 
 
-  background(255,255);
+  clear();
   for(let i=0;i<numberOfDigit;i++){
 
     textSize(s[i]);
