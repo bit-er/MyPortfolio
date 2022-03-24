@@ -24,14 +24,14 @@ function setup() {
 }
 
 function draw() {
-
-
+ 
   clear();
+  
   for(let i=0;i<numberOfDigit;i++){
 
     textSize(s[i]);
     text(d[i],x[i]*windowWidth,y[i]);
-
+    
     if(y[i]>windowHeight){
           x[i]=random(1);
           y[i]=random(-100 ,-10);
